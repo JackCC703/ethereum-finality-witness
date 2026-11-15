@@ -1,0 +1,50 @@
+{
+  "chain_id": 1,
+  "checkpoint": "5afc212a7924789b2bc86acad3ab3a6ffb1f6e97253ea50bee7f4f51422c9275",
+  "execution_block": 17923026,
+  "execution_block_hash": "0xbc8499537876e5406c7a65e25f99063f1cd85a17014a3aa5ade38271b1fbf64f",
+  "finalized_slot": 7109344,
+  "scope": "historical_capella_native_or_risc0_execution_not_LEZ",
+  "state_witness": {
+    "address": "00000000219ab540356cbb839cbe05303d7705fa",
+    "balance_be": "00000000000000000000000000000000000000000017607e19f76922c2c3c0a0",
+    "state_root": "226f5ff47ab3725b5a4a3afc74b1e79e4aa3a29704561eccce590e58900baec3",
+    "storage": [
+      {
+        "slot": "0000000000000000000000000000000000000000000000000000000000000000",
+        "value": "4e585d72ab3a6cb0387fc65e55a7e9bcf6ed555a04e5c1bed4b0ad1264310301"
+      }
+    ],
+    "storage_root": "1440e0a10a64c235e33e5f7a8a92745dee5918ea28d4dbe64860f6c63e156da7"
+  },
+  "verified_updates": [
+    {
+      "signers": 511,
+      "slot": 7061632
+    },
+    {
+      "signers": 512,
+      "slot": 7070047
+    },
+    {
+      "signers": 511,
+      "slot": 7078240
+    },
+    {
+      "signers": 510,
+      "slot": 7089280
+    },
+    {
+      "signers": 512,
+      "slot": 7094272
+    },
+    {
+      "signers": 512,
+      "slot": 7104096
+    },
+    {
+      "signers": 512,
+      "slot": 7109344
+    }
+  ]
+}

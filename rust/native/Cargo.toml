@@ -1,0 +1,8 @@
+[package]
+name = "finality-witness-native"
+version = "0.1.0"
+edition = "2021"
+default-run = "finality-witness-native"
+[dependencies]
+finality-witness-core = { path = "../core" }
+serde_json = "1"

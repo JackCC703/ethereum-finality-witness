@@ -1,0 +1,16 @@
+{
+  "resumed_utc": "2026-11-15T03:16:15.460077+00:00",
+  "original_status": {
+    "supervisor_pid": 88277,
+    "started_utc": "2026-11-14T11:00:21.863619+00:00",
+    "run_directory": "/workspace/work/lez-compact-real-background",
+    "actor_image_id": "35bbc235664c1a6adb0d41c93b2f49f2af7619371a615609a06a40aa327a1bf8",
+    "state": "failed",
+    "updated_utc": "2026-11-14T18:20:27.150320+00:00",
+    "error": "Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', '/workspace/work/lez-compact-real-background/inputs/logic/collect-node-evidence.py', '--run', '/workspace/work/lez-compact-real-background', '--out', '/workspace/output/finality-witness-demo/lez/evidence/compact-real', '--driver', '/workspace/work/sequential-tools/finality-witness-lez-driver', '--rpc', 'http://127.0.0.1:3040']' returned non-zero exit status 1.",
+    "receipt_verified": false
+  },
+  "failure_cause": "Collector incorrectly required journal bytes to appear exactly once; real receipt contains them twice, including an opened inner claim. Proof generation and node acceptance had already succeeded.",
+  "recovery": "Reused original saved public RPC responses, independently verified original receipt, rejected wrong image and top-level journal tampering. No proof rerun or actor/input modification.",
+  "collector_sha256": "9b07772ee64e09cb68b675291338c6c93712d84001c90dd8658152205484cd89"
+}

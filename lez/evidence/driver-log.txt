@@ -1,0 +1,108 @@
+Latest block is 162
+Syncing to block 162. Blocks to sync: 162
+Synced to block 162 in 144.398708ms
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+Latest block is 163
+Syncing to block 163. Blocks to sync: 1
+Synced to block 163 in 7.32775ms
+Transaction hash is c84b92d9ac8d0bd8fb524d234330db0ca0cd8a5c3906c4017ae9a66b95dd2c26
+Transaction is included in block 164
+Transaction hash is c530ebe4cd5f0f3c03c17bd085fe6b3b5fe5594c8312eb6b84112041ce5e3b02
+Transaction is included in block 165
+Transaction hash is 6f74ce8a4a658a32142bf9377375815ac938d01186b10b0ed0373a6c03007cb1
+Transaction is included in block 166
+Transaction hash is 7cf113083586fd8ea18f7a7a5a6a22f286bae3ab53d27d27ffed85107c90a906
+Transaction is included in block 167
+Transaction hash is 98a0680c62d58ac5fca97567bf29e5fa47cb77743e72d4714716169dcb71bd79
+Transaction is included in block 168
+Transaction hash is 0149055196fae257c804e1e5e9cb93a66cfd1701d5a1f088495254c8746a0ba7
+Transaction is included in block 169
+Transaction hash is 0d183ad274eba7cf20cf3f2167acd79eec922f56f01c0e2ac399aec1d3385961
+Transaction is included in block 170
+Transaction hash is bc4e55915eca0ded8c1d7130e58bfc26720150dabeb8293f9f869b1073d496e9
+Transaction is included in block 171
+Transaction hash is b45631bcd8d192d63037c63346ac8fbc2e6a8e166ef7b63e2d2b9f8978d2dbdf
+Transaction is included in block 172
+Transaction hash is 9fd21eef27afa4495d36ff945f27bc405b6c56db79609d61e99da720588ed2e3
+Transaction is included in block 173
+Transaction hash is 12b43d64bf74d0b88da68765887ed0b083bd4e410bb6fc85d7ec815cbefb98e0
+Transaction is included in block 174
+Latest block is 175
+Syncing to block 175. Blocks to sync: 12
+Synced to block 175 in 18.89046ms
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+Latest block is 177
+Syncing to block 177. Blocks to sync: 2
+Synced to block 177 in 3.179226ms
+Latest block is 178
+Syncing to block 178. Blocks to sync: 1
+Synced to block 178 in 2.370568ms
+
+thread 'main' (1) panicked at src/lib.rs:49:13:
+assertion `left == right` failed: FW_STALE_STORE
+  left: String("76084610a9e4dfe1aea101c87bf9734b3d7a5a423d0d63f222c2b75ecfdc3aac")
+ right: String("c25974ea0d177737521828b16be5f9f5b4027e5b39dc47b7271b647032a2cf6b")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+{
+  "after": {
+    "chain_id": 1,
+    "execution_block": 17923026,
+    "execution_block_hash": "0xbc8499537876e5406c7a65e25f99063f1cd85a17014a3aa5ade38271b1fbf64f",
+    "finalized_beacon_root": "a9bb1965a6288f64374a9425f5ecb90dd81239cc2ae1a8ec8b673c13c9d2586a",
+    "finalized_slot": 7109344,
+    "schema": "fw-public-instance-v1",
+    "state_root": "0x226f5ff47ab3725b5a4a3afc74b1e79e4aa3a29704561eccce590e58900baec3",
+    "store_commitment": "c25974ea0d177737521828b16be5f9f5b4027e5b39dc47b7271b647032a2cf6b",
+    "updates_applied": 1
+  },
+  "before": {
+    "chain_id": 1,
+    "execution_block": 17917816,
+    "finalized_slot": 7104096,
+    "schema": "fw-public-instance-v1",
+    "store_commitment": "76084610a9e4dfe1aea101c87bf9734b3d7a5a423d0d63f222c2b75ecfdc3aac",
+    "updates_applied": 0
+  },
+  "instance": "8hqwCm49GLeNqu1FmzjuVMNTKLZWeWCcZgk8BiNH1vw2",
+  "limitations": "Local standalone Bedrock mock, development-mode receipts, no real proof or public-testnet claim.",
+  "mode": "local_LEZ_v0.4.0_rc1_standalone_development_mode",
+  "program_account": "tUZFvxwtVw89BuXSCbBGssZKoqrdhR4TzSbqJTQdd8B",
+  "replay": {
+    "error": "Failed to build transaction: Failed to execute program: Guest panicked: assertion `left == right` failed: FW_STALE_STORE\n  left: String(\"76084610a9e4dfe1aea101c87bf9734b3d7a5a423d0d63f222c2b75ecfdc3aac\")\n right: String(\"c25974ea0d177737521828b16be5f9f5b4027e5b39dc47b7271b647032a2cf6b\")",
+    "stage": "wallet_preflight_not_submitted",
+    "state_unchanged": true
+  },
+  "risc0_dev_mode": "1",
+  "steps": [
+    {
+      "block": 163,
+      "label": "fund_private_verifier",
+      "reverted": false,
+      "tx": "655908172b2f7ee7546592b876e48756c19cfed3224e386f76964ce7974b4272"
+    },
+    {
+      "block": 175,
+      "label": "initialize_public_instance",
+      "reverted": false,
+      "transaction": "AAIAAAAT109YVH9M+mjjZ3nK+immx9vgfui2nn0rsSFoo38HbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcnhfDVR4Gze12OQwn14/mTboJmqiCllPMKFWJg7ldhENL8d0FQZ460SGdPW81+xtqXW2vBwLinwPyOlqhvCZQAIAAAAT109YVH9M+mjjZ3nK+immx9vgfui2nn0rsSFoo38Hb3J4Xw1UeBs3tdjkMJ9eP5k26CZqogpZTzChViYO5XYRAAAAAHJ4Xw1UeBs3tdjkMJ9eP5k26CZqogpZTzChViYO5XYRDS/HdBUGeOtEhnT1vNfsbal1trwcC4p8D8jpaobwmUAXAAAAEwAAAHsib3AiOiJpbml0aWFsaXplIn0BE9dPWFR/TPpo42d5yvoppsfb4H7otp59K7EhaKN/B2+AlpgAAAAAAAAAAAAAAAAAAEiHJgAAAAAAAAAAAAAAAAIAAAAT109YVH9M+mjjZ3nK+immx9vgfui2nn0rsSFoo38HbwwAAAAAAAAAAAAAAAAAAAByeF8NVHgbN7XY5DCfXj+ZNugmaqIKWU8woVYmDuV2EQAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAANr2OfjR+joQ6lFn4yqLjGuckijQ94T9QNWTicf3ybhEU/S712hWSgad8WE8b1s9ROXDKTtxtykNIdG6/9TViHFb5elHgglnSpbmDx8Df2F2VA/QAfodZGlHcMVqdwnELK8mXqXclaZQ1GMBSjjWMJXw8Ozc0V7Bg4g/J915qJYn7BXxj5OUnEog4pi3lFTLWjSZmjKr0R9gpmxjiuZ04z6KRcuQ8Ks/lY49+ItleDb4kY17xT2VIENeo5TLwEEtiw==",
+      "tx": "a3bb5ed08b55a6facaeabdb39fadbd7655dff7d8eebf4d689b935da9461d8569"
+    },
+    {
+      "block": 177,
+      "label": "private_verify_public_apply",
+      "reverted": false,
+      "tx": "17e1052a735e2a2a24be2585e05cf447cf15ac81e524f078428e6133ba393797"
+    },
+    {
+      "block": 178,
+      "label": "external_apply_refused_on_node",
+      "reverted": true,
+      "transaction": "AAIAAAAT109YVH9M+mjjZ3nK+immx9vgfui2nn0rsSFoo38HbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcnhfDVR4Gze12OQwn14/mTboJmqiCllPMKFWJg7ldhENL8d0FQZ460SGdPW81+xtqXW2vBwLinwPyOlqhvCZQAIAAAAT109YVH9M+mjjZ3nK+immx9vgfui2nn0rsSFoo38Hb3J4Xw1UeBs3tdjkMJ9eP5k26CZqogpZTzChViYO5XYRAAAAAHJ4Xw1UeBs3tdjkMJ9eP5k26CZqogpZTzChViYO5XYRDS/HdBUGeOtEhnT1vNfsbal1trwcC4p8D8jpaobwmUAZAQAAFQEAAHsib3AiOiJhcHBseSIsInZlcmlmaWVkIjp7ImNoYWluX2lkIjoxLCJleGVjdXRpb25fYmxvY2siOjE3OTIzMDI3LCJmaW5hbGl6ZWRfc2xvdCI6NzEwOTQwMCwibmV3X3N0b3JlX2NvbW1pdG1lbnQiOiIxMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExIiwicHJldmlvdXNfc3RvcmVfY29tbWl0bWVudCI6ImMyNTk3NGVhMGQxNzc3Mzc1MjE4MjhiMTZiZTVmOWY1YjQwMjdlNWIzOWRjNDdiNzI3MWI2NDcwMzJhMmNmNmIifX0BE9dPWFR/TPpo42d5yvoppsfb4H7otp59K7EhaKN/B2+AlpgAAAAAAAAAAAAAAAAAAEiHJgAAAAAAAAAAAAAAAAIAAAAT109YVH9M+mjjZ3nK+immx9vgfui2nn0rsSFoo38Hbw0AAAAAAAAAAAAAAAAAAAByeF8NVHgbN7XY5DCfXj+ZNugmaqIKWU8woVYmDuV2EQEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAN80Sdm4iGmRqD5V2Qu0czkIy6QN1EezdveG2yoVOhKrZ0A2H2kTNFarwVFfdKPEEseHZCkwrCGV1H08OP5a92Jb5elHgglnSpbmDx8Df2F2VA/QAfodZGlHcMVqdwnELICtAMVjrCLlugKgqRF5ViT5f29RUivjHExrIuSP0LRbOy0c/fKmvNM7SOM9UuuQ73b1Brlvw2+RyduLOd5uFw2KRcuQ8Ks/lY49+ItleDb4kY17xT2VIENeo5TLwEEtiw==",
+      "tx": "2d2f7648d4838c24126f29eff93a49a8b4cabb0c139b2072a870cdb70212d8aa"
+    }
+  ],
+}

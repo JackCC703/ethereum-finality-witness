@@ -1,0 +1,60 @@
+   Compiling finality-witness-lez-actor-fast v0.1.0 (/workspace/output/finality-witness-demo/rust/lez-actor-fast)
+   Compiling finality-witness-core v0.1.0 (/workspace/output/finality-witness-demo/rust/core)
+    Finished `release` profile [optimized] target(s) in 11.24s
+     Running unittests src/lib.rs (work/fast-native-target/release/deps/finality_witness_core-08d4f53429012cdc)
+
+running 17 tests
+test compact::tests::descriptor_matches_full_committee_root ... ok
+test compact::tests::refuses_tampered_non_signer_key ... ok
+test compact::tests::refuses_wrong_non_signer_index ... ok
+test consumer::tests::changed_predicate_cannot_bypass_replay ... ok
+test consumer::tests::false_predicate_unchanged ... ok
+test consumer::tests::overflow_unchanged ... ok
+test consumer::tests::valid_then_replay ... ok
+test compact::tests::seven_compact_transitions_match_full ... ok
+test consumer::tests::wrong_address_unchanged ... ok
+test consumer::tests::wrong_chain_unchanged ... ok
+test consumer::tests::wrong_slot_unchanged ... ok
+test consumer::tests::wrong_proof_then_valid_retry ... ok
+test incremental::tests::final_update_matches_full_replay ... ok
+test incremental::tests::rejects_fake_snapshot_root ... ok
+test incremental::tests::rejects_tampered_signature_without_mutation ... ok
+test incremental::tests::rejects_replayed_old_update ... ok
+test incremental::tests::snapshot_is_reproducibly_pinned ... ok
+
+test result: ok. 17 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.50s
+
+     Running tests/security.rs (work/fast-native-target/release/deps/security-ea8c2f4e3e75bf06)
+
+running 12 tests
+test altered_execution_root ... ok
+test authentic_chain_and_state ... ok
+test fabricated_balance ... ok
+test different_storage_slot ... ok
+test fabricated_storage_root ... ok
+test forged_checkpoint ... ok
+test insufficient_participation ... ok
+test invalid_signature ... ok
+test fabricated_storage_value ... ok
+test tampered_storage_proof ... ok
+test verification_is_read_only ... ok
+test wrong_account ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s
+
+     Running unittests ../lez-actor/src/lib.rs (work/fast-native-target/release/deps/finality_witness_lez_actor-0e6f9d5ca3646b05)
+
+running 10 tests
+test tests::rejects_bad_bootstrap ... ok
+test tests::rejects_bad_signature ... ok
+test tests::rejects_below_two_thirds_participation ... ok
+test tests::rejects_external_apply ... ok
+test tests::rejects_repeat_initialize ... ok
+test tests::rejects_replay ... ok
+test tests::rejects_foreign_program_apply ... ok
+test tests::rejects_valid_curve_signature_from_another_update ... ok
+test tests::rejects_witness_not_bound_to_public_state ... ok
+test tests::seven_sequential_updates_and_committee_rotations ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s
+

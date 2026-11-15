@@ -1,0 +1,64 @@
+PASS fixture checksum: bootstrap.json
+PASS fixture checksum: updates.json
+PASS fixture checksum: finality.json
+PASS fixture checksum: finalized-block.json
+PASS fixture checksum: account-proof.json
+PASS fixture checksum: LICENSE-HELIOS
+PASS fixture checksum: account-anchor.json
+PASS fixture checksum: finalized-state-proof.json
+PASS fixture checksum: finalized-state-proof-request.json
+Integrity only: trust anchors and consensus verification are separate.
+Wrote input.json; consensus checkpoint and network are pinned inside verifier code.
+   Compiling finality-witness-core v0.1.0 (/workspace/output/finality-witness-demo/rust/core)
+    Finished `release` profile [optimized] target(s) in 1.91s
+     Running unittests src/lib.rs (rust/target/release/deps/finality_witness_core-84348f8872262916)
+
+running 8 tests
+test consumer::tests::false_predicate_unchanged ... ok
+test consumer::tests::overflow_unchanged ... ok
+test consumer::tests::changed_predicate_cannot_bypass_replay ... ok
+test consumer::tests::wrong_address_unchanged ... ok
+test consumer::tests::valid_then_replay ... ok
+test consumer::tests::wrong_chain_unchanged ... ok
+test consumer::tests::wrong_slot_unchanged ... ok
+test consumer::tests::wrong_proof_then_valid_retry ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.21s
+
+     Running tests/security.rs (rust/target/release/deps/security-8d0b68456a7674de)
+
+running 12 tests
+test altered_execution_root ... ok
+test authentic_chain_and_state ... ok
+test different_storage_slot ... ok
+test fabricated_balance ... ok
+test fabricated_storage_root ... ok
+test forged_checkpoint ... ok
+test insufficient_participation ... ok
+test invalid_signature ... ok
+test fabricated_storage_value ... ok
+test tampered_storage_proof ... ok
+test verification_is_read_only ... ok
+test wrong_account ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.16s
+
+   Doc-tests finality_witness_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+    Finished `release` profile [optimized] target(s) in 0.03s
+     Running `rust/target/release/finality-witness-native rust/input.json`
+    Finished `release` profile [optimized] target(s) in 0.03s
+     Running `rust/target/release/finality-witness-native --consumer-demo rust/input.json`
+    Finished `release` profile [optimized] target(s) in 0.24s
+    Finished `release` profile [optimized] target(s) in 0.17s
+Saved report to rust/executor-report.json; image "068b791223b43893a462f188fa50cf93169f55fdd13174c7521e8149c6d12e09"; cycles 1747839425; segments 1770; executor seconds 29.75584018
+Saved report to rust/bad-state-executor-report.json; image "068b791223b43893a462f188fa50cf93169f55fdd13174c7521e8149c6d12e09"; cycles 1747751995; segments 1770; executor seconds 31.069435696
+Saved report to rust/bad-signature-executor-report.json; image "068b791223b43893a462f188fa50cf93169f55fdd13174c7521e8149c6d12e09"; cycles 73971963; segments 77; executor seconds 1.430509959
+PASS: native/RISC0 outputs identical; measured execution cycles; consumer rejection leaves state unchanged.
+PASS: bad state value and bad BLS signature rejected inside the actual RISC0 guest.
+This checks execution evidence. It does not create or verify a zk proof or a LEZ transaction.
+Wrote BENCHMARKS.md and artifacts/manifest.json

@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.tools/
+rust/target/
+rust/runner/target/
+rust/accelerated/target/
+rust/lez-actor/target/
+rust/lez-actor-fast/target/
+work/
+.background-proof.lock
+
+# Build outputs and local runtime state
+**/target/
+.env
+.env.*
+!.env.example
+wallet_storage.json
+channel_signing_key
+node.pid
+node.log
+*.tampered-test

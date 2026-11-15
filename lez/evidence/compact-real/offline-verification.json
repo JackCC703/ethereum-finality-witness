@@ -1,0 +1,13 @@
+[
+  {
+    "receipt": "verified_update_0-receipt.bincode",
+    "circuit_image_id": "8fc948d117c11d55f2036748013b3dc599d6995545f0b020d090f544081cf257",
+    "verified": true,
+    "wrong_image_rejected": true,
+    "tampered_receipt_rejected": true,
+    "journal_byte_offset": 244908,
+    "correct_image_stdout": "PASS: cryptographic receipt verifies against the supplied image ID",
+    "wrong_image_error": "Error: claim digest does not match the expected digest 9132fb79ef3b04d1c15fd99ddafe553e5b13f25b6ebbf353c1f6e90a3f1ee633; expected 11b31fcb059207f9d5f6bb70ae48ed2b2e4bf2b8b12715b324320c4f9b7a9f24",
+    "tampered_receipt_error": "Error: claim digest does not match the expected digest 9132fb79ef3b04d1c15fd99ddafe553e5b13f25b6ebbf353c1f6e90a3f1ee633; expected 2b1bc1b6029b39719f0a9bbba222fc4528fcac75a8bb225ea479925a4d8b56fe"
+  }
+]

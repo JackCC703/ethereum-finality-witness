@@ -1,0 +1,47 @@
+Latest block is 1
+Syncing to block 1. Blocks to sync: 1
+Synced to block 1 in 3.447759ms
+Transaction hash is 85274445f439124c7110f7dc3d1014667277992dbbb26716137a518e95573ab8
+Transaction is included in block 2
+Transaction hash is 8ef29e9c51e38d715be4ad8af4a8c482cc68be74a04760438e55dd96e1364dce
+Transaction is included in block 3
+Transaction hash is b8a20f56d14d150c7f8eee90edd12cafd627c0cd340677bfc4c6168d6d7d3fe1
+Transaction is included in block 4
+Transaction hash is adb0ad5d6bbd71017229a117931fe52b7ede161a6c15ae543d0e78a9aa5fa8fc
+Transaction is included in block 5
+Transaction hash is da5d6c8638aae8fc5cbb7e79a3760378630d6f8ef23a4b31ef1e1b3bc2e20018
+Transaction is included in block 6
+Transaction hash is e1e4413f795191d5c50aff601d02b1ef126b3f28cb75ca6cd249ed7b3e55d468
+Transaction is included in block 7
+Transaction hash is 57023bfa6cbcbfee4ee2120dba578ebbc83d39e83b46f197e39f43f84e5638aa
+Transaction is included in block 8
+Transaction hash is 94c241d369580ee4c4cf1843b178e36055cee049161b0ac42b7f0bb3ce28a683
+Transaction is included in block 9
+Transaction hash is 91a1c0e747ed814121d3d996d6bbbdb82f3c6104256c52b576c51ecc1532d43d
+Transaction is included in block 10
+Transaction hash is ff0a1dd84ccaad7f7c1062b8fa4b3c2e2a5951f41dd6b9278e0aaa4d09b896bd
+Transaction is included in block 11
+Transaction hash is ad9af9140c0b20766364e901211d7940886200da3ba4452c40c808ac45202d52
+Transaction is included in block 12
+Latest block is 13
+Syncing to block 13. Blocks to sync: 12
+Synced to block 13 in 19.7446ms
+FW_SEQUENCE_BEGIN index=0 previous="b75239acc0beb0174c5fe8beaa0213a5685ead076e730174bde1e77fb4420ab6"
+2026-11-14T11:05:12.133605Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 420.163797ms
+2026-11-14T11:05:12.215612Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 5.032104ms
+2026-11-14T11:05:12.765852Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 454.759843ms
+2026-11-14T11:05:12.842954Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 5.034618ms
+2026-11-14T11:05:13.328527Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 411.347782ms
+2026-11-14T14:43:39.945728Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 142.12527ms
+Latest block is 1101
+Syncing to block 1101. Blocks to sync: 1088
+Synced to block 1101 in 989.778519ms
+FW_SEQUENCE_APPLIED index=0 finalized_slot=7069376 block=17883333
+2026-11-14T18:20:25.194171Z  INFO risc0_zkvm::host::server::exec::executor: execution time: 353.805885ms
+
+thread 'main' (1) panicked at ../lez-actor/src/lib.rs:56:13:
+assertion `left == right` failed: FW_STALE_STORE
+  left: String("b75239acc0beb0174c5fe8beaa0213a5685ead076e730174bde1e77fb4420ab6")
+ right: String("e3de51fc46954a544e89d795985158372d2ba0e1d2effd2f97c86ebe21f00256")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+FW_SEQUENCE_COMPLETE updates=1 dev_mode=None

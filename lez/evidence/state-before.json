@@ -1,0 +1,8 @@
+{
+  "chain_id": 1,
+  "execution_block": 17917816,
+  "finalized_slot": 7104096,
+  "schema": "fw-public-instance-v1",
+  "store_commitment": "76084610a9e4dfe1aea101c87bf9734b3d7a5a423d0d63f222c2b75ecfdc3aac",
+  "updates_applied": 0
+}

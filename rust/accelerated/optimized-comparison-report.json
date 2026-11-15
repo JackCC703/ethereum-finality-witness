@@ -1,0 +1,29 @@
+{
+  "comparison_scope": "Execution-only, no zk receipts; same historical fixtures and verification outputs. Original stock uses unpatched libraries/two pairings. Round1 patches BLS Fp only. Optimized patches BLS Fp + SHA2 and combines pairing equation with one final exponentiation.",
+  "input_sha256": "84e5eb3439a8a24f6cfb3bf7526106de262cc876fd2948a275a813d53985ac06",
+  "verified_result_equal": true,
+  "stock_cycles": 1747839425,
+  "bls_patch_only_cycles": 417787748,
+  "optimized_cycles": 231806170,
+  "optimized_speedup": 7.540090175339164,
+  "incremental_cycles": 32211104,
+  "incremental_public_cap": 10000000,
+  "incremental_fits_public_cap": false,
+  "negative_controls": [
+    {
+      "case": "bad-state",
+      "error": "STORAGE_VALUE",
+      "cycles": 231718741
+    },
+    {
+      "case": "bad-signature",
+      "error": "INVALID_BLS_SIGNATURE",
+      "cycles": 21150640
+    }
+  ],
+  "stock_image": "068b791223b43893a462f188fa50cf93169f55fdd13174c7521e8149c6d12e09",
+  "bls_patch_only_image": "86e4a9ba1585512e4b5296f6b0b6d31eba2b09adcfce73bcb30485120dd1fff7",
+  "optimized_image": "920f41592aaa837ef917d877b4737eaf5c22bb2c89fcc40c99e3c6ae03d72d56",
+  "incremental_image": "097ce76abaf5bdfccaf08f675a96f0dce050b7293ffffda11b71a7617a286567",
+  "kernel_for_these_comparisons": "risc0-zkos-v1compat 2.2.3; LEZ actor separately targets 2.2.2"
+}

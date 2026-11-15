@@ -1,0 +1,22 @@
+[package]
+name = "finality-witness-lez-driver"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+anyhow.workspace = true
+common.workspace = true
+lee.workspace = true
+lee_core.workspace = true
+wallet.workspace = true
+sequencer_service_rpc = { workspace = true, features = ["client"] }
+tokio = { workspace = true, features = ["macros"] }
+serde_json.workspace = true
+hex.workspace = true
+program_deployment = { path = "../examples/program_deployment" }
+risc0-zkvm = { workspace = true, features = ["client"] }
+risc0-binfmt.workspace = true
+borsh.workspace = true
+bincode.workspace = true
+testnet_initial_state.workspace = true

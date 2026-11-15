@@ -1,0 +1,21 @@
+{
+  "all_seven_ethereum_results_equal": true,
+  "compared_fields": [
+    "chain_id",
+    "checkpoint",
+    "finalized_slot",
+    "finalized_beacon_root",
+    "execution_block",
+    "execution_block_hash",
+    "state_root",
+    "signers",
+    "state_witness"
+  ],
+  "generic_first_update_cycles": 37044569,
+  "blst_full_store_first_update_cycles": 23246065,
+  "compact_first_update_cycles": 13977215,
+  "execution_only_no_proof": true,
+  "first_input_frame_bytes": 111361,
+  "compact_input_frame_bytes": 7370,
+  "elf_tail_padding_bytes": 1517
+}

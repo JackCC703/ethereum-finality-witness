@@ -1,0 +1,20 @@
+diff --git a/lee/state_machine/src/privacy_preserving_transaction/circuit/mod.rs b/lee/state_machine/src/privacy_preserving_transaction/circuit/mod.rs
+index 4442324..133353f 100644
+--- a/lee/state_machine/src/privacy_preserving_transaction/circuit/mod.rs
++++ b/lee/state_machine/src/privacy_preserving_transaction/circuit/mod.rs
+@@ -650,6 +650,7 @@ fn prove(
+ 
+     let circuit_input_payload = borsh::to_vec(&circuit_input)?;
+     env_builder.write_slice(&to_frame(&circuit_input_payload));
++    env_builder.segment_limit_po2(18); // Local demo: bounded prover memory.
+     let env = env_builder.build().unwrap();
+     let prover = default_prover();
+     let opts = ProverOpts::succinct();
+@@ -677,6 +678,7 @@ fn prove_session(
+ ) -> Result<Receipt, LeeError> {
+     let mut env_builder = ExecutorEnv::builder();
+     write(&mut env_builder)?;
++    env_builder.segment_limit_po2(18); // Local demo: bounded prover memory.
+     let env = env_builder.build().unwrap();
+ 
+     // Prove the program

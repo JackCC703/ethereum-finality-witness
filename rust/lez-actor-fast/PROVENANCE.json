@@ -1,0 +1,30 @@
+{
+  "blst": {
+    "repository": "https://github.com/risc0/blst",
+    "commit": "7d1fc3e6d8cf0d52a291f52455233bf8d6432ed2",
+    "tag": "v0.3.16-risczero.0",
+    "license": "Apache-2.0",
+    "retained_license": "LICENSE-BLST"
+  },
+  "shared_patches": "../accelerated/PROVENANCE.json",
+  "core_features": [
+    "combined-pairing",
+    "blst-backend",
+    "compact-store"
+  ],
+  "guest_rust": "r0.1.91.1",
+  "SDK": "3.0.5",
+  "kernel": "2.2.2",
+  "reference_clang": "19.1.7",
+  "verification": "Authenticated committee aggregate minus individually Merkle-proven non-signers; BLS subgroup and signature verification inside the guest",
+  "compact_actor_image_id": "35bbc235664c1a6adb0d41c93b2f49f2af7619371a615609a06a40aa327a1bf8",
+  "reference_guest_source_sha256": {
+    "rust/core/src/lib.rs": "97d5d7a08118b524194541b05cca054376125bcd6debdb1dfe9012f34d73a002",
+    "rust/core/src/incremental.rs": "b898cabb751ab5c3fb96c28e5042830b2c1464160df55dd210a02e81ea975a75",
+    "rust/core/src/compact.rs": "eba9026ee0f201211bee9aa2affb7647a0a296c910ac44682dce06bd91cfb53a",
+    "rust/lez-actor/src/lib.rs": "72aa345c952cd3c58ac50fe232ff7faf0ea48e3ce4f6edad1e7f8cec6b4057fa",
+    "rust/lez-actor/src/main.rs": "689e67152ad405d586fb16d9ca82cb2cdb89c0a46889601158a30f1407747add",
+    "rust/lez-actor-fast/Cargo.toml": "9fbaa00e35f3bab7ce1690d20a6fe484c66aac81fe6b2d05e8309ff37b1250f8",
+    "rust/lez-actor-fast/Cargo.lock": "860b5cfde999210d295229ad21bed0445051f8626429dce82f09c9cf8f31e646"
+  }
+}

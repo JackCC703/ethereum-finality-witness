@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-11-14T11:00:21.869304+00:00",
+  "sha256": {
+    "README.md": "00d8f5e71e1b434e854a9204ccbede5feb7ea2cb2476049596b82f1ce52c14b3",
+    "APPLICATION-ADDENDUM.md": "9db1e6d4bfa4f886a36dfd59383ee3c557ab6850dc040fc78dba38f4a1bd76d3",
+    "lez/CONTINUOUS-UPDATES.md": "a4514a061ab6bd4685509d37f85e986d5bafc5238d75d22626ddf5e14cb27956",
+    "rust/core/src/lib.rs": "97d5d7a08118b524194541b05cca054376125bcd6debdb1dfe9012f34d73a002",
+    "rust/core/src/incremental.rs": "b898cabb751ab5c3fb96c28e5042830b2c1464160df55dd210a02e81ea975a75",
+    "rust/core/src/compact.rs": "eba9026ee0f201211bee9aa2affb7647a0a296c910ac44682dce06bd91cfb53a",
+    "rust/lez-actor/src/lib.rs": "72aa345c952cd3c58ac50fe232ff7faf0ea48e3ce4f6edad1e7f8cec6b4057fa",
+    "rust/lez-actor-fast/Cargo.toml": "9fbaa00e35f3bab7ce1690d20a6fe484c66aac81fe6b2d05e8309ff37b1250f8",
+    "rust/lez-actor-fast/Cargo.lock": "860b5cfde999210d295229ad21bed0445051f8626429dce82f09c9cf8f31e646"
+  },
+  "actor_sha256": "48b41f5376f87d7508e147924eebda43755d67a99bb63ffd2b82067ab54c3523",
+  "sequence_sha256": "7c50cccc3a473975681fa8a519afe4ede4a134c91057cfc74dd2c8c0badb4dba"
+}

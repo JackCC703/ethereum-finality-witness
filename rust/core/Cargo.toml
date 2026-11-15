@@ -1,0 +1,18 @@
+[package]
+name = "finality-witness-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+[dependencies]
+serde_json = "1"
+sha2 = "0.9"
+hex = "0.4"
+bls12_381 = { version = "0.8", features = ["experimental"] }
+rlp = "0.5"
+tiny-keccak = { version = "2", features = ["keccak"] }
+blst = { version = "=0.3.16", optional = true }
+
+[features]
+combined-pairing = []
+blst-backend = ["dep:blst"]
+compact-store = []

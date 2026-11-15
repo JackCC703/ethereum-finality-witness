@@ -1,0 +1,11 @@
+{
+  "chain_id": 1,
+  "execution_block": 17923026,
+  "execution_block_hash": "0xbc8499537876e5406c7a65e25f99063f1cd85a17014a3aa5ade38271b1fbf64f",
+  "finalized_beacon_root": "a9bb1965a6288f64374a9425f5ecb90dd81239cc2ae1a8ec8b673c13c9d2586a",
+  "finalized_slot": 7109344,
+  "schema": "fw-public-instance-v1",
+  "state_root": "0x226f5ff47ab3725b5a4a3afc74b1e79e4aa3a29704561eccce590e58900baec3",
+  "store_commitment": "c25974ea0d177737521828b16be5f9f5b4027e5b39dc47b7271b647032a2cf6b",
+  "updates_applied": 1
+}

@@ -1,0 +1,55 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling generic-array v0.14.7
+   Compiling typenum v1.20.1
+   Compiling serde_core v1.0.229
+   Compiling digest v0.9.0
+   Compiling block-buffer v0.9.0
+   Compiling sha2 v0.9.9
+   Compiling serde_json v1.0.154
+   Compiling bls12_381 v0.8.0
+   Compiling finality-witness-core v0.1.0 (/workspace/output/finality-witness-demo/rust/core)
+    Finished `release` profile [optimized] target(s) in 27.40s
+     Running unittests src/lib.rs (work/fast-native-target/release/deps/finality_witness_core-640ce7aef8d8bf02)
+
+running 13 tests
+test consumer::tests::false_predicate_unchanged ... ok
+test consumer::tests::changed_predicate_cannot_bypass_replay ... ok
+test consumer::tests::overflow_unchanged ... ok
+test consumer::tests::valid_then_replay ... ok
+test consumer::tests::wrong_address_unchanged ... ok
+test consumer::tests::wrong_chain_unchanged ... ok
+test consumer::tests::wrong_proof_then_valid_retry ... ok
+test incremental::tests::final_update_matches_full_replay ... ok
+test consumer::tests::wrong_slot_unchanged ... ok
+test incremental::tests::rejects_fake_snapshot_root ... ok
+test incremental::tests::rejects_replayed_old_update ... ok
+test incremental::tests::snapshot_is_reproducibly_pinned ... ok
+test incremental::tests::rejects_tampered_signature_without_mutation ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.69s
+
+     Running tests/security.rs (work/fast-native-target/release/deps/security-8a376f119babd653)
+
+running 12 tests
+test altered_execution_root ... ok
+test authentic_chain_and_state ... ok
+test fabricated_balance ... ok
+test different_storage_slot ... ok
+test fabricated_storage_root ... ok
+test forged_checkpoint ... ok
+test insufficient_participation ... ok
+test invalid_signature ... ok
+test fabricated_storage_value ... ok
+test tampered_storage_proof ... ok
+test verification_is_read_only ... ok
+test wrong_account ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.41s
+
+   Doc-tests finality_witness_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

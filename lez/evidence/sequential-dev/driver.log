@@ -1,0 +1,98 @@
+Latest block is 1
+Syncing to block 1. Blocks to sync: 1
+Synced to block 1 in 2.288895ms
+Transaction hash is c8ce5e059e032447676ec2c6c67c1e6291c3f3c99b736a5e326111bebf9cf4ff
+Transaction is included in block 2
+Transaction hash is c3a6a30e338ab7859ce43adb8d09f51d194a7b9c46d8b01e743af9b7dc068365
+Transaction is included in block 3
+Transaction hash is 7b264af4614dfb8c0299e1b1c7cc24e88fe5eb60068c7ca4b1d3bedc08685ba9
+Transaction is included in block 4
+Transaction hash is 0dd34e6545065ad7b21f728e5981832fbfd4befb4fa140793aa9538f646f67ff
+Transaction is included in block 5
+Transaction hash is 2d89f1b2690f39042ad865ed7f22047afb2a63d11fc14aab3565d0f0ee0e9952
+Transaction is included in block 6
+Transaction hash is cba0f6fbb0ad97977cddc6162dc55917d07c3717c0d0e60093477b2d42eaae40
+Transaction is included in block 7
+Transaction hash is 87cff9df4e1a12a60c028ae0f871a7e31501b51b4c9766287eb2fa5358a54881
+Transaction is included in block 8
+Transaction hash is 5c20af3326d1ddff113d014f02da14c42555b9fa4c856cc4a356bee50ac63e83
+Transaction is included in block 9
+Transaction hash is dae253ec5a38e5a0505f6ab3fcf9cf99e1825529f47ade2b42ed0818897706ff
+Transaction is included in block 10
+Transaction hash is 83322609ec43700b12abe3343ec6a23d1cf1dcc7527a704498ea3e767eeb49de
+Transaction is included in block 11
+Transaction hash is af708f33b8932a6a990d354c66fc2c5f3e063ea1c6b4eba5c4d281dcbacfecca
+Transaction is included in block 12
+Latest block is 13
+Syncing to block 13. Blocks to sync: 12
+Synced to block 13 in 17.696568ms
+FW_SEQUENCE_BEGIN index=0 previous="ae5d01ff235270743fd8dd685dffd109221d469cf5d5f7c240b171053fefc0f9"
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+Latest block is 16
+Syncing to block 16. Blocks to sync: 3
+Synced to block 16 in 4.613705ms
+FW_SEQUENCE_APPLIED index=0 finalized_slot=7069376 block=17883333
+FW_SEQUENCE_BEGIN index=1 previous="c643b3e593c664f52980e911e21aa6d75e6092de4cf3c11cb1cbbca5fe907078"
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+Latest block is 18
+Syncing to block 18. Blocks to sync: 2
+Synced to block 18 in 3.491852ms
+FW_SEQUENCE_APPLIED index=1 finalized_slot=7070047 block=17883995
+FW_SEQUENCE_BEGIN index=2 previous="5c4ec3e37b62f6224ddf6e63ffaad5e6a7068c63d93aba19535677348d15e1f0"
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+Latest block is 21
+Syncing to block 21. Blocks to sync: 3
+Synced to block 21 in 3.868313ms
+FW_SEQUENCE_APPLIED index=2 finalized_slot=7078240 block=17892141
+FW_SEQUENCE_BEGIN index=3 previous="ad90cb1cae3f68b7d7f6e9775d60663b5b33a8697e2cf3e9e3b049d2b0e191c0"
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+Latest block is 23
+Syncing to block 23. Blocks to sync: 2
+Synced to block 23 in 3.927842ms
+FW_SEQUENCE_APPLIED index=3 finalized_slot=7089280 block=17903093
+FW_SEQUENCE_BEGIN index=4 previous="e464c05d1915fe50b43ee54ef775734e7e143654f6fcc3963bc96c11bbd5bdfc"
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+Latest block is 26
+Syncing to block 26. Blocks to sync: 3
+Synced to block 26 in 5.196812ms
+FW_SEQUENCE_APPLIED index=4 finalized_slot=7094272 block=17908060
+FW_SEQUENCE_BEGIN index=5 previous="4680bc29cf340ae9f6842175e153960780af69754e20aa04fc33990b6b2c527d"
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+Latest block is 28
+Syncing to block 28. Blocks to sync: 2
+Synced to block 28 in 3.690355ms
+FW_SEQUENCE_APPLIED index=5 finalized_slot=7104096 block=17917816
+FW_SEQUENCE_BEGIN index=6 previous="76084610a9e4dfe1aea101c87bf9734b3d7a5a423d0d63f222c2b75ecfdc3aac"
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+Latest block is 30
+Syncing to block 30. Blocks to sync: 2
+Synced to block 30 in 3.630855ms
+FW_SEQUENCE_APPLIED index=6 finalized_slot=7109344 block=17923026
+
+thread 'main' (1) panicked at src/lib.rs:56:13:
+assertion `left == right` failed: FW_STALE_STORE
+  left: String("76084610a9e4dfe1aea101c87bf9734b3d7a5a423d0d63f222c2b75ecfdc3aac")
+ right: String("c25974ea0d177737521828b16be5f9f5b4027e5b39dc47b7271b647032a2cf6b")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+FW_SEQUENCE_COMPLETE updates=7 dev_mode=Some("1")

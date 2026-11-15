@@ -1,0 +1,32 @@
+{
+  "bad_proof": {
+    "error": "STORAGE_VALUE",
+    "state_unchanged": true
+  },
+  "false_predicate": {
+    "error": "CONSUMER_PREDICATE",
+    "state_unchanged": true
+  },
+  "final_state": {
+    "spent_statement_ids": [
+      "175e202665469c419ac6d40ebbea6b36542008b168a8df4db6c3438e62469aa2"
+    ],
+    "tickets": 1
+  },
+  "replay": {
+    "error": "CONSUMER_REPLAY",
+    "state_unchanged": true
+  },
+  "scope": "native_atomic_ticket_consumer_not_LEZ_or_funds",
+  "valid_retry": {
+    "address": "00000000219ab540356cbb839cbe05303d7705fa",
+    "chain_id": 1,
+    "execution_block": 17923026,
+    "execution_block_hash": "0xbc8499537876e5406c7a65e25f99063f1cd85a17014a3aa5ade38271b1fbf64f",
+    "operation": "issue_one_demo_ticket",
+    "slot": "0000000000000000000000000000000000000000000000000000000000000000",
+    "statement_id": "175e202665469c419ac6d40ebbea6b36542008b168a8df4db6c3438e62469aa2",
+    "tickets": 1,
+    "value": "4e585d72ab3a6cb0387fc65e55a7e9bcf6ed555a04e5c1bed4b0ad1264310301"
+  }
+}

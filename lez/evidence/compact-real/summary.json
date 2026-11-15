@@ -1,0 +1,19 @@
+{
+  "status": "verified",
+  "scope": "one real private committee update accepted by a local standalone LEZ node",
+  "development_mode": false,
+  "accepted_block": 1101,
+  "transaction": "60573a4fd65253bc7ebd4023294d5d602b0e69630ced87197c18c7788f731163",
+  "updates_applied": 1,
+  "committee_only_first_update": true,
+  "actor_image_id": "35bbc235664c1a6adb0d41c93b2f49f2af7619371a615609a06a40aa327a1bf8",
+  "circuit_image_id": "8fc948d117c11d55f2036748013b3dc599d6995545f0b020d090f544081cf257",
+  "wallet_proving_to_inclusion_seconds": 26113.141815727,
+  "proof_bytes": 237615,
+  "receipt_file": "lez/evidence/compact-real/verified_update_0-receipt.bincode",
+  "receipt_sha256": "114ba144b5416fc5bee8a54d7a6edef77f06bac5e91d785d174dcf7011fd36a4",
+  "correct_image_verified": true,
+  "wrong_image_rejected": true,
+  "tampered_journal_rejected": true,
+  "limitations": "Only one update has a real proof. Seven-update runs use development receipts. Historical Capella, mock Bedrock, no public testnet or live follower."
+}

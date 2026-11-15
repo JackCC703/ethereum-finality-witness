@@ -1,0 +1,55 @@
+{
+  "upstream_repository": "https://github.com/a16z/helios",
+  "upstream_commit": "2922a475ef1b48476983333cbae7fc92fdb46cd6",
+  "historical_account_commit": "0cc5a34aaf350a26e6f374f9f1d58de1212f5934",
+  "license": "MIT (retained in LICENSE-HELIOS)",
+  "checkpoint_source": "https://github.com/a16z/helios/blob/2922a475ef1b48476983333cbae7fc92fdb46cd6/ethereum/tests/sync.rs",
+  "genesis_root_source": "https://github.com/a16z/helios/blob/2922a475ef1b48476983333cbae7fc92fdb46cd6/ethereum/src/config/networks.rs",
+  "historical_only": true,
+  "files": {
+    "bootstrap.json": {
+      "source": "https://raw.githubusercontent.com/a16z/helios/2922a475ef1b48476983333cbae7fc92fdb46cd6/ethereum/testdata/bootstrap.json",
+      "sha256": "6a12276c898200089cf8751a938497fd6eb9a711203a385471994d275459a711"
+    },
+    "updates.json": {
+      "source": "https://raw.githubusercontent.com/a16z/helios/2922a475ef1b48476983333cbae7fc92fdb46cd6/ethereum/testdata/updates.json",
+      "sha256": "c972809bb985889cf51019fe6f6fae764d387e511d1bf47c8e5a6b7b82cc3cdb"
+    },
+    "finality.json": {
+      "source": "https://raw.githubusercontent.com/a16z/helios/2922a475ef1b48476983333cbae7fc92fdb46cd6/ethereum/testdata/finality.json",
+      "sha256": "6579adb2c85f974b5d6b887d4f7e36613d0d37c5c9b0dfd7b4f9aff1cef49f43"
+    },
+    "finalized-block.json": {
+      "source": "https://raw.githubusercontent.com/a16z/helios/2922a475ef1b48476983333cbae7fc92fdb46cd6/ethereum/testdata/blocks/7109344.json",
+      "sha256": "ad1a7d2cddd8efb0305b3a2d7f9536408dda5caa54f111b47aa964ab36e61864"
+    },
+    "account-proof.json": {
+      "source": "https://raw.githubusercontent.com/a16z/helios/0cc5a34aaf350a26e6f374f9f1d58de1212f5934/execution/testdata/proof.json",
+      "sha256": "69485d558a0a793c19da5e70501e40d4ccad4e013298ae01c6273a87a4b3cc9e"
+    },
+    "LICENSE-HELIOS": {
+      "source": "https://raw.githubusercontent.com/a16z/helios/2922a475ef1b48476983333cbae7fc92fdb46cd6/LICENSE",
+      "sha256": "a6dcee4c8f9d8c83ddb9226e7ab201e7263404c2870f299db46ed7b8767aafb9"
+    },
+    "account-anchor.json": {
+      "source": "Locally pinned root of the independent historical account fixture; not consensus-authenticated",
+      "sha256": "a02d6763f96608f90071ebaa58a7197c58c5ef7e4fe0e776e80e814c9a64bd4b"
+    },
+    "finalized-state-proof.json": {
+      "source": "https://eth-mainnet.public.blastapi.io (untrusted Ethereum JSON-RPC, eth_getProof at block 17923026)",
+      "sha256": "3ddb87735618ef0ff520d279b0088c2fc876948365e8e2f0d9ec4ce55362c4f9"
+    },
+    "finalized-state-proof-request.json": {
+      "source": "https://eth-mainnet.public.blastapi.io (untrusted Ethereum JSON-RPC, eth_getProof at block 17923026)",
+      "sha256": "6ba5ac0ed7d7a24dea348e741d00466177f1e0e3beffb2a9dcde66e0a0265678"
+    }
+  },
+  "finalized_state_proof": {
+    "retrieved_at_utc": "2026-11-14T04:37:43.983125+00:00",
+    "endpoint": "https://eth-mainnet.public.blastapi.io",
+    "block_number": 17923026,
+    "trust": "RPC provides witness bytes only; account path must verify against replayed finalized execution state_root. storageRoot is decoded from that verified account, never trusted from RPC metadata.",
+    "request_file": "finalized-state-proof-request.json",
+    "response_file": "finalized-state-proof.json"
+  }
+}

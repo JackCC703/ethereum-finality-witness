@@ -1,0 +1,15 @@
+{
+  "LEZ": "v0.4.0-rc1",
+  "LEZ_commit": "1806e873ea2ac0e1b608aa7cf2f9b6e1fb12db21",
+  "RISC0_SDK": "3.0.5",
+  "r0vm": "3.0.5",
+  "risc0_guest_rust": "r0.1.91.1",
+  "host_rust": "1.98.1",
+  "private_proof_segment_po2": 18,
+  "public_gas_limit": 10000000,
+  "bedrock": "standalone mock",
+  "risc0_dev_mode": "1 for seven-update run; unset for separate real-proof run",
+  "cpu_quota": "200000 100000",
+  "memory_limit_bytes": 8589934592,
+  "prover_patch": "host-only segment limit at two proof entrypoints; prover-segments.patch"
+}

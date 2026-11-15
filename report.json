@@ -1,0 +1,158 @@
+{
+  "status": "native_historical_capella_demo",
+  "network": "ethereum-mainnet",
+  "checkpoint": "0x5afc212a7924789b2bc86acad3ab3a6ffb1f6e97253ea50bee7f4f51422c9275",
+  "historical_evaluation_slot": 7109432,
+  "finalized_slot": 7109344,
+  "finalized_execution_block": 17923026,
+  "verified_updates": [
+    {
+      "slot": 7061632,
+      "signers": 511,
+      "period": 862
+    },
+    {
+      "slot": 7070047,
+      "signers": 512,
+      "period": 863
+    },
+    {
+      "slot": 7078240,
+      "signers": 511,
+      "period": 864
+    },
+    {
+      "slot": 7089280,
+      "signers": 510,
+      "period": 865
+    },
+    {
+      "slot": 7094272,
+      "signers": 512,
+      "period": 866
+    },
+    {
+      "slot": 7104096,
+      "signers": 512,
+      "period": 867
+    },
+    {
+      "slot": 7109344,
+      "signers": 512,
+      "period": 867
+    }
+  ],
+  "finality_wall_seconds": 26.734,
+  "transaction_witness": {
+    "transaction_hash": "0xfb6bdc7b92c0b3a03c1d8ade8147a09722da0dfa3393c98d5f8406da782cd08d",
+    "transaction_index": 0,
+    "transaction_count": 167,
+    "ssz_branch": [
+      "0x1412ac5eb7e01677e4ab3f44b3493e42b477620f4506c4c1468da126e12c94b2",
+      "0xf2f449589ffe897f5b562acbbe2b3ba43f91b0c935f8dba273a16d0380074329",
+      "0x0ad19d7e6b593462c640480519304a525fcd82232eaf376d87a2b990d4f0b7e3",
+      "0x8fa359a8d3b287257422f9020d8e762ab4a2f24fc3f2be6d206f2af15f17ec1d",
+      "0x101c2ad0b39727fbdf3f20741c935c76c58a16f4accf3990818313a01d2b76c0",
+      "0x7c735694833e02762823e36f687f5d2592e29170a8727d9e6c2f44a38d2841db",
+      "0xc62add9ae6793add209a3deb75fec42b6f32567e371f3b9e7ec407696ab14415",
+      "0x4c185071006a634aa4255314e5dda74a591bb8b68b422091eb3a018c6e96939a",
+      "0x26846476fd5fc54a5d43385167c95144f2643f533cc85bb9d16b782f8d7db193",
+      "0x506d86582d252405b840018792cad2bf1259f1ef5aa5f887e13cb2f0094f51e1",
+      "0xffff0ad7e659772f9534c195c815efc4014ef1e1daed4404c06385d11192e92b",
+      "0x6cf04127db05441cd833107a52be852868890e4317e6a02ab47683aa75964220",
+      "0xb7d05f875f140027ef5118a2247bbb84ce8f2f0f1123623085daf7960c329f5f",
+      "0xdf6af5f5bbdb6be9ef8aa618e4bf8073960867171e29676f8b284dea6a08a85e",
+      "0xb58d900f5e182e3c50ef74969ea16c7726c549757cc23523c369587da7293784",
+      "0xd49a7502ffcfb0340b1d7885688500ca308161a7f96b62df9d083b71fcc8f2bb",
+      "0x8fe6b1689256c0d385f42f5bbe2027a22c1996e110ba97c171d3e5948de92beb",
+      "0x8d0d63c39ebade8509e0ae3c9c3876fb5fa112be18f905ecacfecb92057603ab",
+      "0x95eec8b2e541cad4e91de38385f2e046619f54496c2382cb6cacd5b98c26f5a4",
+      "0xf893e908917775b62bff23294dbbe3a1cd8e6cc1c35b4801887b646a6f81f17f",
+      "0xa700000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "transaction_root": "0x644cb4615c32584c0b66d7ac80b66b9305fdc33c4025977fc73b5ef8ce7fc15a"
+  },
+  "finalized_state_witness": {
+    "address": "0x00000000219ab540356cbb839cbe05303d7705fa",
+    "nonce": 1,
+    "balance_wei": "28260967194325012575404192",
+    "state_root": "0x226f5ff47ab3725b5a4a3afc74b1e79e4aa3a29704561eccce590e58900baec3",
+    "storage_root": "0x1440e0a10a64c235e33e5f7a8a92745dee5918ea28d4dbe64860f6c63e156da7",
+    "code_hash": "0x6c029a231254fadb724d63be769f75eedd66362df034a3e663252b49d062a666",
+    "storage": [
+      {
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "value": "0x4e585d72ab3a6cb0387fc65e55a7e9bcf6ed555a04e5c1bed4b0ad1264310301"
+      }
+    ],
+    "anchor": "replayed_finalized_execution_header_state_root",
+    "execution_block": 17923026
+  },
+  "negative_controls": [
+    {
+      "test": "wrong checkpoint",
+      "result": "PASS",
+      "reason": "CHECKPOINT_MISMATCH"
+    },
+    {
+      "test": "tampered BLS signature",
+      "result": "PASS",
+      "reason": "INVALID_BLS_SIGNATURE"
+    },
+    {
+      "test": "wrong network signing domain",
+      "result": "PASS",
+      "reason": "INVALID_BLS_SIGNATURE"
+    },
+    {
+      "test": "insufficient participation",
+      "result": "PASS",
+      "reason": "INSUFFICIENT_PARTICIPATION"
+    },
+    {
+      "test": "tampered execution state root",
+      "result": "PASS",
+      "reason": "EXECUTION_BRANCH"
+    },
+    {
+      "test": "tampered transaction proof",
+      "result": "PASS",
+      "reason": "TX_INCLUSION"
+    },
+    {
+      "test": "tampered transaction value",
+      "result": "PASS",
+      "reason": "TX_INCLUSION"
+    },
+    {
+      "test": "tampered finalized account proof",
+      "result": "PASS",
+      "reason": "ACCOUNT_PROOF_INVALID"
+    },
+    {
+      "test": "tampered finalized storage proof",
+      "result": "PASS",
+      "reason": "STORAGE_PROOF_INVALID"
+    },
+    {
+      "test": "false RPC account balance",
+      "result": "PASS",
+      "reason": "ACCOUNT_BALANCE"
+    },
+    {
+      "test": "false RPC storage value",
+      "result": "PASS",
+      "reason": "STORAGE_VALUE"
+    },
+    {
+      "test": "wrong execution root for account proof",
+      "result": "PASS",
+      "reason": "ACCOUNT_PROOF_INVALID"
+    }
+  ],
+  "limitations": [
+    "No LEZ execution, no RISC0 guest, no zk proof or cycle measurement.",
+    "Historical Capella fixture only, not a current weak-subjectivity bootstrap.",
+    "No full fork schedule, live sync, persistence, operator, or audit."
+  ]
+}

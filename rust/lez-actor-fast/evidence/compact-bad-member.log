@@ -1,0 +1,8 @@
+
+thread 'main' (1) panicked at ../lez-actor/src/lib.rs:41:65:
+FW_VERIFY:NON_SIGNER_MEMBERSHIP
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (79749) panicked at src/measure.rs:8:84:
+called `Result::unwrap()` on an `Err` value: Guest panicked: FW_VERIFY:NON_SIGNER_MEMBERSHIP
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

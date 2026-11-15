@@ -1,0 +1,127 @@
+{
+  "scope": "same verifier source and witness; official BLS finite-field patch only; execution without proving",
+  "verification_result_equal": true,
+  "input_sha256": "84e5eb3439a8a24f6cfb3bf7526106de262cc876fd2948a275a813d53985ac06",
+  "stock_cycles": 1747839425,
+  "accelerated_cycles": 417787748,
+  "speedup": 4.183558357963144,
+  "stock_image_id": "068b791223b43893a462f188fa50cf93169f55fdd13174c7521e8149c6d12e09",
+  "accelerated_image_id": "86e4a9ba1585512e4b5296f6b0b6d31eba2b09adcfce73bcb30485120dd1fff7",
+  "phase_comparison": [
+    {
+      "phase": "bootstrap_complete",
+      "stock_delta_cycles": 18389620,
+      "accelerated_delta_cycles": 18389620
+    },
+    {
+      "phase": "update_0_before_bls",
+      "stock_delta_cycles": 17925850,
+      "accelerated_delta_cycles": 17925850
+    },
+    {
+      "phase": "update_0_after_bls",
+      "stock_delta_cycles": 233054307,
+      "accelerated_delta_cycles": 40868532
+    },
+    {
+      "phase": "update_0_complete",
+      "stock_delta_cycles": 117110,
+      "accelerated_delta_cycles": 117110
+    },
+    {
+      "phase": "update_1_before_bls",
+      "stock_delta_cycles": 17936754,
+      "accelerated_delta_cycles": 17936754
+    },
+    {
+      "phase": "update_1_after_bls",
+      "stock_delta_cycles": 226909062,
+      "accelerated_delta_cycles": 39806412
+    },
+    {
+      "phase": "update_1_complete",
+      "stock_delta_cycles": 133506,
+      "accelerated_delta_cycles": 133506
+    },
+    {
+      "phase": "update_2_before_bls",
+      "stock_delta_cycles": 17937909,
+      "accelerated_delta_cycles": 17937909
+    },
+    {
+      "phase": "update_2_after_bls",
+      "stock_delta_cycles": 233054370,
+      "accelerated_delta_cycles": 40868576
+    },
+    {
+      "phase": "update_2_complete",
+      "stock_delta_cycles": 133801,
+      "accelerated_delta_cycles": 133801
+    },
+    {
+      "phase": "update_3_before_bls",
+      "stock_delta_cycles": 17935656,
+      "accelerated_delta_cycles": 17935656
+    },
+    {
+      "phase": "update_3_after_bls",
+      "stock_delta_cycles": 239199712,
+      "accelerated_delta_cycles": 41930812
+    },
+    {
+      "phase": "update_3_complete",
+      "stock_delta_cycles": 133505,
+      "accelerated_delta_cycles": 133505
+    },
+    {
+      "phase": "update_4_before_bls",
+      "stock_delta_cycles": 17936668,
+      "accelerated_delta_cycles": 17936668
+    },
+    {
+      "phase": "update_4_after_bls",
+      "stock_delta_cycles": 226908923,
+      "accelerated_delta_cycles": 39806269
+    },
+    {
+      "phase": "update_4_complete",
+      "stock_delta_cycles": 133735,
+      "accelerated_delta_cycles": 133735
+    },
+    {
+      "phase": "update_5_before_bls",
+      "stock_delta_cycles": 17936585,
+      "accelerated_delta_cycles": 17936585
+    },
+    {
+      "phase": "update_5_after_bls",
+      "stock_delta_cycles": 226909307,
+      "accelerated_delta_cycles": 39806670
+    },
+    {
+      "phase": "update_5_complete",
+      "stock_delta_cycles": 133506,
+      "accelerated_delta_cycles": 133506
+    },
+    {
+      "phase": "update_6_before_bls",
+      "stock_delta_cycles": 976425,
+      "accelerated_delta_cycles": 976425
+    },
+    {
+      "phase": "update_6_after_bls",
+      "stock_delta_cycles": 226908898,
+      "accelerated_delta_cycles": 39806233
+    },
+    {
+      "phase": "update_6_complete",
+      "stock_delta_cycles": 12732,
+      "accelerated_delta_cycles": 12732
+    },
+    {
+      "phase": "account_and_storage_complete",
+      "stock_delta_cycles": 959450,
+      "accelerated_delta_cycles": 959450
+    }
+  ]
+}

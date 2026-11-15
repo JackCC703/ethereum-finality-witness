@@ -1,0 +1,5 @@
+PASS: actual RPC transactions match driver evidence; block IDs match raw block headers.
+PASS: update applies; forged external Apply reverts; repeated update is rejected at wallet preflight.
+PASS: public before/after states and expected Ethereum finalized slot/block agree.
+PASS: manifest hashes match archived artifacts and inputs.
+Scope: local standalone LEZ development mode, fake receipts, no cryptographic proof.
