@@ -2,7 +2,7 @@
 
 Ethereum finality and state-attestation prototype for [Logos RFP-021](https://github.com/logos-co/rfp/blob/master/RFPs/RFP-021-ethereum-state-attestation.md), with a stateful LEZ v0.4.0-rc1 actor and archived, independently verified real-proof evidence.
 
-[中文说明](README.zh-CN.md) · [Application addendum](APPLICATION-ADDENDUM.md) · [Real-proof result](lez/evidence/compact-real/RESULT.md) · [Measurements](BENCHMARKS.md)
+[Application addendum](APPLICATION-ADDENDUM.md) · [Real-proof result](lez/evidence/compact-real/RESULT.md) · [Measurements](BENCHMARKS.md)
 
 ## Verified results
 
@@ -96,7 +96,7 @@ The current compact profile passed 29 core tests and 10 native actor tests; the 
 - Local reproduction uses publicly known deterministic test keys and official local genesis accounts. Runtime wallet storage, private node keys and node data are excluded. Never use these test keys for real assets.
 - The native ticket consumer does not establish a full privacy-preserving consumer application. Transaction inclusion alone does not establish successful execution.
 
-See [the Chinese technical notes](README.zh-CN.md), [continuous-update integration](lez/CONTINUOUS-UPDATES.md) and [benchmarks](BENCHMARKS.md) for exact methods and boundaries.
+See [continuous-update integration](lez/CONTINUOUS-UPDATES.md) and [benchmarks](BENCHMARKS.md) for exact methods and boundaries.
 
 ## Licence
 
