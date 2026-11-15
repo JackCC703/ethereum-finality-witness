@@ -1,0 +1,21 @@
+[package]
+name = "finality-witness-v03-driver"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+[dependencies]
+anyhow.workspace = true
+common.workspace = true
+lee.workspace = true
+lee_core.workspace = true
+wallet.workspace = true
+program_loader_core.workspace = true
+sequencer_service_rpc = { workspace = true, features = ["client"] }
+tokio = { workspace = true, features = ["macros"] }
+serde_json.workspace = true
+hex.workspace = true
+borsh.workspace = true
+risc0-zkvm = { workspace = true, features = ["client"] }
+risc0-binfmt.workspace = true
+risc0-zkos-v1compat.workspace = true
+bincode.workspace = true

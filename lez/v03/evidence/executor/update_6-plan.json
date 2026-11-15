@@ -1,0 +1,9 @@
+{
+  "image_id": "d3493782be7b206ba2303c7102326c5253fe2233b1439d42bad08f283d139a1e",
+  "journal_bytes": 16269,
+  "mode": "actor_execution_only_no_proof",
+  "segment_po2": 18,
+  "segments": 66,
+  "user_cycles": 13903837,
+  "wall_seconds": 0.933372313
+}

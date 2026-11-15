@@ -17,6 +17,10 @@ The real update took **26,113.142 seconds (7.25 hours)** from wallet proving to 
 
 All node runs are **local standalone LEZ v0.4.0-rc1 with mock Bedrock**, not the public testnet or a full consensus network. Ethereum inputs are recorded **2023 Capella** data, not live chain following.
 
+## Public testnet status
+
+**Not deployed.** A read-only check on 2026-11-15 reached the official public endpoint, but its v0.3 circuit fingerprint differs from this project's v0.4 integration. The current actor cannot be used there unchanged. See [the compatibility report and deployment prerequisites](lez/PUBLIC-TESTNET.md) and [raw RPC responses](lez/evidence/public-testnet/preflight.json). A [separate v0.3 adapter](lez/v03/README.md) is now built and tested in the executor and actual state machine. Its matching wallet passes the public circuit check, but its deployment account is unfunded and no public deployment has been performed. The original v0.4 actor still needs a compatible public v0.4 endpoint.
+
 ## Verification flow
 
 ```text

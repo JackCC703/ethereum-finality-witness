@@ -1,0 +1,12 @@
+
+thread 'main' (1) panicked at src/lib.rs:18:5:
+assertion `left == right` failed: FW03_INSTANCE
+  left: AMUJECUbbgB1gTpjZFqcDq862G7tiMDh6gmZUuY8pZe6
+ right: ARNhshCgVWfj69wi4m747ksKHGgfRJKbgZ5Sz6r8YNJS
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (141241) panicked at src/measure.rs:8:84:
+called `Result::unwrap()` on an `Err` value: Guest panicked: assertion `left == right` failed: FW03_INSTANCE
+  left: AMUJECUbbgB1gTpjZFqcDq862G7tiMDh6gmZUuY8pZe6
+ right: ARNhshCgVWfj69wi4m747ksKHGgfRJKbgZ5Sz6r8YNJS
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

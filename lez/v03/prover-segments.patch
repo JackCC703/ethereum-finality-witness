@@ -1,0 +1,19 @@
+--- a/lee/state_machine/src/privacy_preserving_transaction/circuit/mod.rs
++++ b/lee/state_machine/src/privacy_preserving_transaction/circuit/mod.rs
+@@ -289,7 +289,7 @@
+     };
+     let mut backend = Prover {
+         programs,
+-        env_builder: ExecutorEnv::builder(),
++        env_builder: { let mut builder = ExecutorEnv::builder(); builder.segment_limit_po2(18); builder },
+         calls: Vec::new(),
+     };
+     ExecutionState::initialize(root.clone(), &private_witnesses)?.run(&mut backend)?;
+@@ -369,6 +369,7 @@
+     write: impl FnOnce(&mut ExecutorEnvBuilder) -> Result<(), LeeError>,
+ ) -> Result<Receipt, LeeError> {
+     let mut env_builder = ExecutorEnv::builder();
++    env_builder.segment_limit_po2(18);
+     write(&mut env_builder)?;
+     let env = env_builder.build().unwrap();
+ 

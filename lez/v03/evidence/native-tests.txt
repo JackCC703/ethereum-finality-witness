@@ -1,0 +1,22 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling finality-witness-lez-v03 v0.1.0 (/workspace/repos/ethereum-finality-witness/rust/lez-v03)
+    Finished `release` profile [optimized] target(s) in 2.39s
+     Running unittests src/lib.rs (/workspace/work/lez-v03-guest-target/release/deps/finality_witness_lez_v03-7a8afdb45ed11001)
+
+running 10 tests
+test tests::bootstrap_is_authenticated ... ok
+test tests::caller_cannot_inject_apply - should panic ... ok
+test tests::cannot_reinitialize - should panic ... ok
+test tests::rejects_corrupt_bootstrap - should panic ... ok
+test tests::rejects_finality_regression - should panic ... ok
+test tests::rejects_other_instance - should panic ... ok
+test tests::rejects_other_program_shard - should panic ... ok
+test tests::rejects_wrong_chain_effect - should panic ... ok
+test tests::rejects_replay - should panic ... ok
+test tests::seven_updates_match_reference ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+

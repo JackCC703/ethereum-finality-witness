@@ -1,0 +1,29 @@
+{
+  "profile": "separate_LEZ_v0.3_historical_Capella_plan_apply",
+  "image_id": "d3493782be7b206ba2303c7102326c5253fe2233b1439d42bad08f283d139a1e",
+  "sdk_revision": "1a003bfbfb89fcf987f62975cd08a401169e1b8c",
+  "risc0_sdk": "3.0.5",
+  "kernel": "risc0-zkos-v1compat 2.2.2",
+  "guest_toolchain": "r0.1.91.1",
+  "clang": "19.1.7",
+  "features": [
+    "combined-pairing",
+    "blst-backend",
+    "compact-store"
+  ],
+  "sha256": {
+    "rust/lez-v03/src/lib.rs": "d2fd8b871dfdf6f71ff7a66ec346c0ea4e9a6c4dd24c61940570e63ccdba409e",
+    "rust/lez-v03/src/main.rs": "abb852ca55afbc33c1e7ae1a0e1ceb9d8cda21cc36a02e7e6df07b2e19ada6ce",
+    "rust/lez-v03/Cargo.toml": "775e4880dbd5705514282bde2d49467cf00d31374d20ba68187bc2a001b2192f",
+    "rust/lez-v03/Cargo.lock": "6769e1502e751f2576d7dbd125cfc2c29d52651ee9c8692015c98241b61b46ce",
+    "rust/core/src/lib.rs": "97d5d7a08118b524194541b05cca054376125bcd6debdb1dfe9012f34d73a002",
+    "rust/core/src/compact.rs": "eba9026ee0f201211bee9aa2affb7647a0a296c910ac44682dce06bd91cfb53a",
+    "rust/core/src/incremental.rs": "b898cabb751ab5c3fb96c28e5042830b2c1464160df55dd210a02e81ea975a75",
+    "rust/compact-sequence.json": "7c50cccc3a473975681fa8a519afe4ede4a134c91057cfc74dd2c8c0badb4dba",
+    "lez/v03/artifacts/finality-witness-v03.elf": "21e2a8062087e06c48d3817cca4bc2da368f851e56c63fb4d0c7a8d653797bea",
+    "lez/v03/artifacts/finality-witness-v03.bin": "05fc9e992930f90efabb4988752e96edf1653c61b6ed0e6efb50b96ad384b2fb"
+  },
+  "status": "executor_and_state_machine_verified_waiting_for_public_testnet_funding",
+  "original_v04_actor": "artifacts/lez-actor-compact.bin",
+  "dependency_licences": "Original code MIT OR Apache-2.0; pinned blst licence retained at rust/lez-actor-fast/LICENSE-BLST; other pinned acceleration provenance at rust/accelerated/PROVENANCE.json"
+}

@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-11-15T05:46:09.868495+00:00",
+  "status": "awaiting_testnet_funding",
+  "network": "public_LEZ_v0.3",
+  "rpc_upstream": "https://testnet.lez.logos.co",
+  "transport": "byte-preserving loopback relay through configured HTTPS proxy; not a local sequencer",
+  "wallet_check": {
+    "balance": 0,
+    "circuit_image_id": "189513eb0a037edb638b3da824952e69894a4d11ab05c5956a5986181ab02721",
+    "compatible": true,
+    "payer": "ArSC2eGjcRXCm3bFTfTFAgR8jUcep2ksSMXb1roHTDK"
+  },
+  "program_image_id": "d3493782be7b206ba2303c7102326c5253fe2233b1439d42bad08f283d139a1e",
+  "program_account": null,
+  "deployment_transactions": [],
+  "deployed": false,
+  "funding_request": "faucet-request.json",
+  "native_adapter_tests_passed": 10,
+  "executor_journals_match_native": true,
+  "v03_state_machine_checked": true,
+  "state_machine_update_budget_note": "20M in-memory budget tests transitions; actual public 10M budget refuses updates; public updates require real private proving",
+  "limitations": "No public deployment, accepted update or real v0.3 receipt yet. Existing v0.4 real proof is separate."
+}

@@ -1,0 +1,51 @@
+
+thread 'main' (1) panicked at src/lib.rs:49:13:
+FW03_ALREADY_INITIALIZED
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/lib.rs:37:14:
+FW03_UNKNOWN_OPERATION
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/lib.rs:58:13:
+assertion `left == right` failed: FW03_STALE_STORE
+  left: String("b75239acc0beb0174c5fe8beaa0213a5685ead076e730174bde1e77fb4420ab6")
+ right: String("e3de51fc46954a544e89d795985158372d2ba0e1d2effd2f97c86ebe21f00256")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/lib.rs:58:13:
+assertion `left == right` failed: FW03_STALE_STORE
+  left: String("e3de51fc46954a544e89d795985158372d2ba0e1d2effd2f97c86ebe21f00256")
+ right: String("f132d4737e66c0b5006ee804336a1f647417a40e2fef08072077b0b202b6ad27")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/lib.rs:58:13:
+assertion `left == right` failed: FW03_STALE_STORE
+  left: String("f132d4737e66c0b5006ee804336a1f647417a40e2fef08072077b0b202b6ad27")
+ right: String("e112d7b6892aef2ffc33e2042313c63d13c1952baab4234614c4d6ab603a05bc")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/lib.rs:58:13:
+assertion `left == right` failed: FW03_STALE_STORE
+  left: String("e112d7b6892aef2ffc33e2042313c63d13c1952baab4234614c4d6ab603a05bc")
+ right: String("f2c8ca56bc19c5fe8e52fca114cc4e9ac9d18d773180667ad0ee28bb0b5b1fc0")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/lib.rs:58:13:
+assertion `left == right` failed: FW03_STALE_STORE
+  left: String("f2c8ca56bc19c5fe8e52fca114cc4e9ac9d18d773180667ad0ee28bb0b5b1fc0")
+ right: String("5fe406e32ee10a6712e00b801ec835b83d80d14e8fc3a5e625a412f1f16ba9c9")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/lib.rs:58:13:
+assertion `left == right` failed: FW03_STALE_STORE
+  left: String("5fe406e32ee10a6712e00b801ec835b83d80d14e8fc3a5e625a412f1f16ba9c9")
+ right: String("bb9337e89e35e2c2e255edc3c07319a86607ce631b37a43cc78e67815a6183c3")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (1) panicked at src/lib.rs:58:13:
+assertion `left == right` failed: FW03_STALE_STORE
+  left: String("bb9337e89e35e2c2e255edc3c07319a86607ce631b37a43cc78e67815a6183c3")
+ right: String("e6450cbbbc4281733ee575ed889bafa772b921d1d2b3a4d4500e33eeeb31a409")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+PASS: actual v0.3 state machine, init, seven successor commitments, replay/forged Apply refusals and public 10M cap rejection

@@ -19,3 +19,6 @@ channel_signing_key
 node.pid
 node.log
 *.tampered-test
+
+# Fresh public-testnet signing key (runtime stays outside this repo)
+payer.secret
