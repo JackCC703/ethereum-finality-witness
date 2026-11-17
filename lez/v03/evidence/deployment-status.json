@@ -1,23 +1,39 @@
 {
-  "checked_utc": "2026-11-15T05:46:09.868495+00:00",
-  "status": "awaiting_testnet_funding",
+  "checked_utc": "2026-11-16T12:27:00+00:00",
+  "status": "deployed_and_initialized",
   "network": "public_LEZ_v0.3",
   "rpc_upstream": "https://testnet.lez.logos.co",
   "transport": "byte-preserving loopback relay through configured HTTPS proxy; not a local sequencer",
   "wallet_check": {
-    "balance": 0,
+    "balance": 93516128,
+    "balance_note": "post-deployment; funded with 100,000,000 lepta from the hosted faucet before the run",
     "circuit_image_id": "189513eb0a037edb638b3da824952e69894a4d11ab05c5956a5986181ab02721",
     "compatible": true,
-    "payer": "ArSC2eGjcRXCm3bFTfTFAgR8jUcep2ksSMXb1roHTDK"
+    "payer": "9mrcNkAai4cpqNQZLstiD5Ev84nQ2v4B4QkaUY8b2cZU",
+    "previous_payer_note": "ArSC2eGj... held 100,000,000 lepta from 2026-11-16 but its signing key was generated in a different environment and is unavailable; a fresh wallet was prepared for this run"
   },
   "program_image_id": "d3493782be7b206ba2303c7102326c5253fe2233b1439d42bad08f283d139a1e",
-  "program_account": null,
-  "deployment_transactions": [],
-  "deployed": false,
+  "program_account": "5FKkrZ6Fch7zRRNAmUuosidosJoLAgamaEciRNtdAx3x",
+  "deployment_transactions": 9,
+  "deployed": true,
   "funding_request": "faucet-request.json",
   "native_adapter_tests_passed": 10,
   "executor_journals_match_native": true,
   "v03_state_machine_checked": true,
   "state_machine_update_budget_note": "20M in-memory budget tests transitions; actual public 10M budget refuses updates; public updates require real private proving",
-  "limitations": "No public deployment, accepted update or real v0.3 receipt yet. Existing v0.4 real proof is separate."
+  "limitations": "Public v0.3 deployment of a historical Capella verifier, initialised but with zero updates applied. No accepted update and no real v0.3 proving receipt yet. Does not fulfill the public v0.4 RFP requirement. The existing v0.4 real proof is separate.",
+  "instance": "3UEzjhNLDdBTpVx5moZdZQGV1efyUpqt9X1gv9cXENHg",
+  "loader_header_block": 82771,
+  "initialised_block": 82772,
+  "updates_applied": 0,
+  "on_chain_state": {
+    "chain_id": 1,
+    "execution_block": 17883333,
+    "finalized_slot": 7069376,
+    "schema": "fw-v03-historical-v1",
+    "store_commitment": "b75239acc0beb0174c5fe8beaa0213a5685ead076e730174bde1e77fb4420ab6",
+    "updates_applied": 0
+  },
+  "evidence": "PUBLIC-DEPLOYMENT.md",
+  "host_block_cadence_note": "mean inter-block time 10 s at block 25,700 (2026-10-16), 11 s at 55,000, 71 s at 76,000, 558 s over blocks 82,700-82,759 (2026-11-16); block size correlation r=+0.033; longest gap 9,600 s at block 82,729 occurred before this deployment"
 }

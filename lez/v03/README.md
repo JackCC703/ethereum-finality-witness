@@ -1,6 +1,6 @@
 # Separate LEZ v0.3 public-testnet adapter
 
-**Status: compiled and verified in the executor/state machine; public deployment is waiting for test tokens.** No public program address or deployment transaction is claimed yet. The original v0.4 actor and real proof remain the primary implementation, unchanged.
+**Status: deployed and initialised on the public LEZ v0.3 testnet on 2026-11-16.** Program account `5FKkrZ6Fch7zRRNAmUuosidosJoLAgamaEciRNtdAx3x`, instance `3UEzjhNLDdBTpVx5moZdZQGV1efyUpqt9X1gv9cXENHg`. Full identities, transactions, on-chain state and the block-cadence measurements behind the upload time are in [PUBLIC-DEPLOYMENT.md](PUBLIC-DEPLOYMENT.md). The instance has applied **zero** updates. The original v0.4 actor and real proof remain the primary implementation, unchanged.
 
 This profile targets official LEZ v0.3.1 commit `1a003bfbfb89fcf987f62975cd08a401169e1b8c` and its plan/apply interface. It reuses the same authenticated historical Capella verification core, not the v0.4 actor ABI. A v0.3 deployment does not satisfy the RFP's public v0.4 requirement.
 
@@ -9,7 +9,7 @@ This profile targets official LEZ v0.3.1 commit `1a003bfbfb89fcf987f62975cd08a40
 - Ten native adapter tests pass: authenticated bootstrap, seven successor commitments, reinitialization, wrong instance, wrong program shard, forged Apply instruction, replay, corrupt bootstrap, finality regression and chain binding.
 - The actual zkVM binary executes initialization, first-update and final-update Plan/Apply pairs. Every journal exactly matches the corresponding native output. Actual guest executions also reject a wrong instance and corrupt bootstrap.
 - The actual `lee::V03State` executes initialization and all seven transitions and rejects reinitialization, forged Apply and replays. **These update tests explicitly use a 20M in-memory cycle budget** to exercise state transitions; they are not public admission tests. A separate attempt at the actual public **10M** budget is rejected.
-- The freshly built v0.3 wallet/driver connects to the official public endpoint and matches its circuit image `189513eb0a037edb638b3da824952e69894a4d11ab05c5956a5986181ab02721`. This establishes compatibility of that check, not a public deployment.
+- The freshly built v0.3 wallet/driver connects to the official public endpoint and matches its circuit image `189513eb0a037edb638b3da824952e69894a4d11ab05c5956a5986181ab02721`, and the adapter is since deployed and initialised there — see [PUBLIC-DEPLOYMENT.md](PUBLIC-DEPLOYMENT.md).
 
 Raw evidence: [native tests](evidence/native-tests.txt), [executor results](evidence/executor/summary.json), [state-machine results](evidence/state-machine.json), and [funding/deployment status](evidence/deployment-status.json).
 
